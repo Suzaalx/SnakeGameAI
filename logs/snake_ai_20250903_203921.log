@@ -1,0 +1,6 @@
+2025-09-03 20:39:21 | logger               | INFO     | Logging initialized - Level: INFO
+2025-09-03 20:39:21 | logger               | INFO     | Log file: logs/snake_ai_20250903_203921.log
+2025-09-03 20:39:21 | logger               | INFO     | Metrics file: logs/training_metrics.log
+2025-09-03 20:39:26 | numexpr.utils        | INFO     | NumExpr defaulting to 8 threads.
+2025-09-03 20:39:32 | visualizer           | INFO     | Initializing Training Visualizer
+2025-09-03 20:39:33 | visualizer           | ERROR    | Failed to initialize visualizer: 'TrainingVisualizer' object has no attribute 'window_size'

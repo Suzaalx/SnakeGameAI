@@ -1,0 +1,160 @@
+2025-09-03 20:39:58 | logger               | INFO     | Logging initialized - Level: INFO
+2025-09-03 20:39:58 | logger               | INFO     | Log file: logs/snake_ai_20250903_203958.log
+2025-09-03 20:39:58 | logger               | INFO     | Metrics file: logs/training_metrics.log
+2025-09-03 20:40:01 | numexpr.utils        | INFO     | NumExpr defaulting to 8 threads.
+2025-09-03 20:40:03 | visualizer           | INFO     | Initializing Training Visualizer
+2025-09-03 20:40:03 | model                | INFO     | Q-Network initialized: 11 -> 256 -> 3
+2025-09-03 20:40:04 | trainer              | INFO     | Q-Trainer initialized: lr=0.001, gamma=0.9
+2025-09-03 20:40:04 | agent                | INFO     | Agent initialized with DQN model
+2025-09-03 20:40:04 | game                 | INFO     | Initializing Snake Game AI: 640x480
+2025-09-03 20:40:05 | training.main        | INFO     | 🚀 Training started
+2025-09-03 20:40:05 | training.main        | INFO     | Configuration: {'max_memory': 100000, 'batch_size': 1000, 'learning_rate': 0.001, 'model_architecture': '11->256->3', 'gamma': 0.9}
+2025-09-03 20:40:08 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:08 | training.main        | INFO     | 🏆 NEW RECORD! Game 1: {'game': 1, 'score': 0, 'record': 0, 'epsilon': '80.000', 'moves': 2, 'duration': '3.87s'}
+2025-09-03 20:40:10 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:10 | training.main        | INFO     | 🏆 NEW RECORD! Game 2: {'game': 2, 'score': 0, 'record': 0, 'epsilon': '79.000', 'moves': 2, 'duration': '1.41s'}
+2025-09-03 20:40:12 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:12 | training.main        | INFO     | 🏆 NEW RECORD! Game 3: {'game': 3, 'score': 0, 'record': 0, 'epsilon': '78.000', 'moves': 2, 'duration': '1.73s'}
+2025-09-03 20:40:15 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:15 | training.main        | INFO     | 🏆 NEW RECORD! Game 4: {'game': 4, 'score': 0, 'record': 0, 'epsilon': '77.000', 'moves': 2, 'duration': '2.49s'}
+2025-09-03 20:40:17 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:17 | training.main        | INFO     | 🏆 NEW RECORD! Game 5: {'game': 5, 'score': 0, 'record': 0, 'epsilon': '76.000', 'moves': 2, 'duration': '1.74s'}
+2025-09-03 20:40:21 | model                | INFO     | Model saved successfully: ./model/model.pth
+2025-09-03 20:40:21 | training.main        | INFO     | 💾 Model saved: ./model/model.pth (Score: 1)
+2025-09-03 20:40:21 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:21 | training.main        | INFO     | 🏆 NEW RECORD! Game 6: {'game': 6, 'score': 1, 'record': 1, 'epsilon': '75.000', 'moves': 2, 'duration': '2.97s'}
+2025-09-03 20:40:23 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:23 | training.main        | INFO     | 🏆 NEW RECORD! Game 7: {'game': 7, 'score': 1, 'record': 1, 'epsilon': '74.000', 'moves': 2, 'duration': '1.11s'}
+2025-09-03 20:40:27 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:27 | training.main        | INFO     | 🏆 NEW RECORD! Game 8: {'game': 8, 'score': 1, 'record': 1, 'epsilon': '73.000', 'moves': 2, 'duration': '3.19s'}
+2025-09-03 20:40:32 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:32 | training.main        | INFO     | 🏆 NEW RECORD! Game 9: {'game': 9, 'score': 1, 'record': 1, 'epsilon': '72.000', 'moves': 2, 'duration': '4.85s'}
+2025-09-03 20:40:34 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:34 | training.main        | INFO     | 🏆 NEW RECORD! Game 10: {'game': 10, 'score': 1, 'record': 1, 'epsilon': '71.000', 'moves': 2, 'duration': '1.19s'}
+2025-09-03 20:40:39 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:40 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:44 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:44 | training.main        | INFO     | 🏆 NEW RECORD! Game 13: {'game': 13, 'score': 1, 'record': 1, 'epsilon': '68.000', 'moves': 2, 'duration': '3.82s'}
+2025-09-03 20:40:46 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:48 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:48 | training.main        | INFO     | 🏆 NEW RECORD! Game 15: {'game': 15, 'score': 1, 'record': 1, 'epsilon': '66.000', 'moves': 2, 'duration': '1.71s'}
+2025-09-03 20:40:51 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:53 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:55 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:57 | model                | INFO     | Model saved successfully: ./model/model.pth
+2025-09-03 20:40:57 | training.main        | INFO     | 💾 Model saved: ./model/model.pth (Score: 2)
+2025-09-03 20:40:57 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:40:57 | training.main        | INFO     | 🏆 NEW RECORD! Game 19: {'game': 19, 'score': 2, 'record': 2, 'epsilon': '62.000', 'moves': 2, 'duration': '1.49s'}
+2025-09-03 20:41:01 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:08 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:09 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:18 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:18 | training.main        | INFO     | 🏆 NEW RECORD! Game 23: {'game': 23, 'score': 2, 'record': 2, 'epsilon': '58.000', 'moves': 2, 'duration': '8.85s'}
+2025-09-03 20:41:20 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:22 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:24 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:26 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:27 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:33 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:33 | training.main        | INFO     | 🏆 NEW RECORD! Game 29: {'game': 29, 'score': 2, 'record': 2, 'epsilon': '52.000', 'moves': 2, 'duration': '4.83s'}
+2025-09-03 20:41:35 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:38 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:40 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:42 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:46 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:50 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:52 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:54 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:56 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:41:58 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:00 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:07 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:11 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:14 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:18 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:23 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:28 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:30 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:34 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:36 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:42 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:42 | training.main        | INFO     | 📊 Training Statistics:
+2025-09-03 20:42:42 | training.main        | INFO     |    Total Games: 50
+2025-09-03 20:42:42 | training.main        | INFO     |    Average Score: 0.38
+2025-09-03 20:42:42 | training.main        | INFO     |    Best Score: 2
+2025-09-03 20:42:42 | training.main        | INFO     |    Training Time: 157.54s
+2025-09-03 20:42:46 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:48 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:50 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:52 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:55 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:42:57 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:02 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:03 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:07 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:07 | training.main        | INFO     | 🏆 NEW RECORD! Game 59: {'game': 59, 'score': 2, 'record': 2, 'epsilon': '22.000', 'moves': 2, 'duration': '3.04s'}
+2025-09-03 20:43:11 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:17 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:18 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:19 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:24 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:27 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:33 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:38 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:48 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:56 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:57 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:43:59 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:44:08 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:44:14 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:44:14 | training.main        | INFO     | 🏆 NEW RECORD! Game 73: {'game': 73, 'score': 2, 'record': 2, 'epsilon': '10.000', 'moves': 2, 'duration': '5.55s'}
+2025-09-03 20:44:25 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:44:39 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:44:43 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:44:44 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:44:52 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:45:02 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:45:07 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:45:16 | model                | INFO     | Model saved successfully: ./model/model.pth
+2025-09-03 20:45:16 | training.main        | INFO     | 💾 Model saved: ./model/model.pth (Score: 3)
+2025-09-03 20:45:16 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:45:16 | training.main        | INFO     | 🏆 NEW RECORD! Game 81: {'game': 81, 'score': 3, 'record': 3, 'epsilon': '10.000', 'moves': 2, 'duration': '8.77s'}
+2025-09-03 20:45:21 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:45:23 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:45:28 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:45:30 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:45:37 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:45:42 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:45:47 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:45:49 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:46:05 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:46:07 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:46:21 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:46:21 | training.main        | INFO     | 🏆 NEW RECORD! Game 92: {'game': 92, 'score': 3, 'record': 3, 'epsilon': '10.000', 'moves': 2, 'duration': '14.30s'}
+2025-09-03 20:46:23 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:46:28 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:46:32 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:46:41 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:46:41 | training.main        | INFO     | 🏆 NEW RECORD! Game 96: {'game': 96, 'score': 3, 'record': 3, 'epsilon': '10.000', 'moves': 2, 'duration': '8.69s'}
+2025-09-03 20:46:49 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:46:56 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:47:02 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:47:02 | training.main        | INFO     | 🏆 NEW RECORD! Game 99: {'game': 99, 'score': 3, 'record': 3, 'epsilon': '10.000', 'moves': 2, 'duration': '5.29s'}
+2025-09-03 20:47:03 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:47:03 | training.main        | INFO     | 📊 Training Statistics:
+2025-09-03 20:47:03 | training.main        | INFO     |    Total Games: 100
+2025-09-03 20:47:03 | training.main        | INFO     |    Average Score: 0.58
+2025-09-03 20:47:03 | training.main        | INFO     |    Best Score: 3
+2025-09-03 20:47:03 | training.main        | INFO     |    Training Time: 418.57s
+2025-09-03 20:47:07 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:47:20 | model                | INFO     | Model saved successfully: ./model/model.pth
+2025-09-03 20:47:20 | training.main        | INFO     | 💾 Model saved: ./model/model.pth (Score: 7)
+2025-09-03 20:47:20 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:47:20 | training.main        | INFO     | 🏆 NEW RECORD! Game 102: {'game': 102, 'score': 7, 'record': 7, 'epsilon': '10.000', 'moves': 2, 'duration': '12.00s'}
+2025-09-03 20:47:24 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:47:27 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:47:34 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:47:45 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:47:49 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:47:56 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
+2025-09-03 20:48:04 | model                | INFO     | Model saved successfully: ./model/model_latest.pth
