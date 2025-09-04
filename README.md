@@ -75,7 +75,7 @@ This project demonstrates the application of **Reinforcement Learning** in game 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/SnakeGameAI.git
+   git clone https://github.com/suzzalx/SnakeGameAI.git
    cd SnakeGameAI
    ```
 
@@ -303,8 +303,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+**suzzalx**
+- GitHub: [@suzzalx](https://github.com/suzzalx)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 - Email: your.email@example.com
 
